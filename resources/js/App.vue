@@ -1,5 +1,5 @@
 <template>
-    <RouterView></RouterView>
+    <router-view name="Sidebar" />
+    <router-view name="Navbar" />
+    <router-view />
 </template>
-
-<script setup></script>
