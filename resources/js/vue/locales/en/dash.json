@@ -2,6 +2,26 @@
     "sidebar": {
         "title": "Management System",
         "dashboard": "Dashboard",
-        "product": "Product"
+        "product": "Product",
+        "account": "Account"
+    },
+    "form": {
+        "ID": "ID",
+        "Name": "Name",
+        "Phone": "Phone",
+        "Email": "Email",
+        "Address": "Address",
+        "Status": "Status",
+        "Action": "Action",
+        "create_acc": "Create Account",
+        "Level": "Level",
+        "choose_img": "Upload your profile picture"
+    },
+    "button": {
+        "save": "Save",
+        "Delete": "Delete",
+        "Update": "Update",
+        "Cancel": "Cancel",
+        "Close": "Close"
     }
 }

@@ -13,23 +13,34 @@
             <!-- Menu -->
             <ul class="space-y-2 font-medium text-gray-700">
                 <li>
-                    <a
-                        href="/dashboard"
-                        class="flex items-center gap-3 px-4 py-2 rounded-lg transition-all active hover:bg-blue-50 hover:text-blue-600 active:bg-blue-500 active:text-white"
+                    <RouterLink
+                        :to="{ name: 'Dashboard' }"
+                        class="flex items-center gap-3 px-4 py-2 rounded-lg transition-all hover:bg-blue-50 hover:text-blue-600"
+                        exact-active-class="bg-blue-500 text-white"
                     >
                         <i class="fa-solid fa-gauge"></i>
                         <span>{{ $t("sidebar.dashboard") }}</span>
-                    </a>
+                    </RouterLink>
                 </li>
-
                 <li>
-                    <a
-                        href="/products"
-                        class="flex items-center gap-3 px-4 py-2 rounded-lg transition-all active hover:bg-blue-50 hover:text-blue-600 active:bg-blue-500 active:text-white"
+                    <RouterLink
+                        :to="{ name: 'Product' }"
+                        class="flex items-center gap-3 px-4 py-2 rounded-lg transition-all hover:bg-blue-50 hover:text-blue-600"
+                        exact-active-class="bg-blue-500 text-white"
                     >
                         <i class="fa-solid fa-box"></i>
                         <span>{{ $t("sidebar.product") }}</span>
-                    </a>
+                    </RouterLink>
+                </li>
+                <li>
+                    <RouterLink
+                        :to="{ name: 'User' }"
+                        class="flex items-center gap-3 px-4 py-2 rounded-lg transition-all hover:bg-blue-50 hover:text-blue-600"
+                        exact-active-class="bg-blue-500 text-white"
+                    >
+                        <i class="fa-solid fa-user"></i>
+                        <span>{{ $t("sidebar.account") }}</span>
+                    </RouterLink>
                 </li>
             </ul>
 

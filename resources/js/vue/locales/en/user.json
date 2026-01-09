@@ -1,0 +1,11 @@
+{
+    "form": {
+        "ID": "ID",
+        "Name": "Name",
+        "Phone": "Phone",
+        "Email": "Email",
+        "Address": "Address",
+        "Status": "Status",
+        "Action": "Action"
+    }
+}

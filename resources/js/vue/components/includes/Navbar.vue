@@ -59,12 +59,3 @@
         </div>
     </nav>
 </template>
-
-<script>
-export default {
-    name: "Navbar",
-    mounted() {
-        console.log("Navbar mounted successfully");
-    },
-};
-</script>
